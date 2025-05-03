@@ -421,7 +421,6 @@ tr:nth-of-type(2n) {
 
 /* Slider Item */
 .image-text-container {
-  background: red;
   position: relative;
   display: flex;
   justify-content: center;
@@ -594,7 +593,7 @@ tr:nth-of-type(2n) {
   }
   .slider2-row .image-text-container {
     width: 100%;
-    height: auto; /* let aspect-ratio control height */
+    height: auto; 
     aspect-ratio: 16 / 9;
   }
   .slider2-row .image-text-container {
