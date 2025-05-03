@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Wellington Diner</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+    <!-- Navigation bar -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="navbar-nav-brand">
+                <span class="brand-name" id="logo">The wellington diner</span>
+            </div>
+            <div class="navbar-nav-menu">
+                <ul>
+                    <a class="btn" href="#">
+                        <li>Home</li>
+                    </a>
+                    <a class="btn" href="#">
+                        <li>Menu</li>
+                    </a>
+                    <a class="btn" href="editor.html">
+                        <li>Edit menu</li>
+                    </a>
+                </ul>
+            </div>
+            <div class="navbar-nav-social">
+                <ul class="navbar-social">
+                    <li>
+                        <a class="btn" href="#"><i class="fa-solid fa-location-dot"></i></a>
+                    </li>
+                    <li>
+                        <a class="btn" href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                    </li>
+                    <li>
+                        <a class="btn" href="#"><i class="fa-brands fa-twitter"></i></a>
+                    </li>
+                    <li>
+                        <a class="btn" href="#"><i class="fa-brands fa-instagram"></i></a>
+                    </li>
+                </ul>
+            </div>
+
+            <!-- Hamburger Button-->
+            <button class="hamburger-button">
+                <div class="hamburger-line"></div>
+                <div class="hamburger-line"></div>
+                <div class="hamburger-line"></div>
+            </button>
+
+            <div class="mobile-menu">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Menu</a></li>
+                    <li><a href="#">Edit menu</a></li>
+                </ul>
+                <div class="mobile-social">
+                    <ul class="mobile-navbar-social">
+                        <li>
+                            <a class="btn mobile-social-btn" href="#"><i class="fa-solid fa-location-dot"></i></a>
+                        </li>
+                        <li>
+                            <a class="btn mobile-social-btn" href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                        </li>
+                        <li>
+                            <a class="btn mobile-social-btn" href="#"><i class="fa-brands fa-twitter"></i></a>
+                        </li>
+                        <li>
+                            <a class="btn mobile-social-btn" href="#"><i class="fa-brands fa-instagram"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Return button -->
+     <div class="container">
+        <div class="btn return-top">
+            <a href="#logo">Return</a>
+            <i class="fa-solid fa-arrow-up"></i>
+        </div>
+     </div>
+    
+    <!-- Main menu -->
+    <div class="container-sm">
+
+        <!-- Slider 2 -->
+        <div class="slider2-row">
+            <div class="slider2-header">
+                <h3 class="slider2-title">Menu Categories</h3>
+                <div class="progress-bar" id="progress-bar">
+
+                </div>
+            </div>
+            <div class="slider2-container">
+                <div class="handle left-handle"><i class="fa-solid fa-chevron-left"></i></div>
+                <div class="slider2" id="slider2">
+
+                </div>
+                <div class="handle right-handle"><i class="fa-solid fa-chevron-right"></i></div>
+            </div>
+        </div>
+        <div class="main-menu" id="main-menu">
+            <div class="menu-header">
+                <ul>
+                    <li>Menu</li>
+                    <li>Served daily</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Menu is populated here -->
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container-sm">
+            <ul>
+                <li class="text-sm text-center">(613) 798-7800</li>
+
+                <li class="text-sm text-center">©2020 by The Wellington Diner. Proudly created not with Wix.com</li>
+            </ul>
+        </div>
+    </footer>
+    <script src="js/main.js"></script>
+</body>
+
+</html>

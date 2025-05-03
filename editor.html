@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Wellington Diner</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+    <!-- Navigation bar -->
+    <nav>
+        <div class="container">
+            <div class="navbar-nav-brand">
+                <span class="brand-name">The wellington diner</span>
+            </div>
+            <div class="navbar-nav-menu">
+                <ul>
+                    <a class="btn" href="#">
+                        <li>Home</li>
+                    </a>
+                    <a class="btn" href="/">
+                        <li>Menu</li>
+                    </a>
+                    <a class="btn" href="#">
+                        <li>Edit menu</li>
+                    </a>
+                </ul>
+            </div>
+            <div class="navbar-nav-social">
+                <ul class="navbar-social">
+                    <li>
+                        <a class="btn" href="#"><i class="fa-solid fa-location-dot"></i></a>
+                    </li>
+                    <li>
+                        <a class="btn" href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                    </li>
+                    <li>
+                        <a class="btn" href="#"><i class="fa-brands fa-twitter"></i></a>
+                    </li>
+                    <li>
+                        <a class="btn" href="#"><i class="fa-brands fa-instagram"></i></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+   
+    <!-- Modal -->
+    <div class="modal-1" id="modal-1">
+        <div class="modal-content">
+            <a href="#" id="close-btn"><i class="fa-solid fa-xmark"></i></a>
+            <div class="modal-input">
+                <label class="custom-field">
+                    <input type="text" />
+                    <span class="placeholder">Category Name</span>
+                </label>
+
+                <button class="btn custom-field-button">Submit</button>
+            </div>
+            <div class="modal-input">
+                <label class="custom-field">
+                    <input type="text" />
+                    <span class="placeholder">Category Name</span>
+                </label>
+
+                <button class="btn custom-field-button">Submit</button>
+            </div>
+            <div class="modal-input">
+                <label class="custom-field">
+                    <input type="text" />
+                    <span class="placeholder">Category Name</span>
+                </label>
+
+                <button class="btn custom-field-button">Submit</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Main menu -->
+    <div class="container-sm" id="dashboard-container">
+        <div class="dashboard" id="dashboard">
+            <!-- New Category Group -->
+            <div class="dashboard-group">
+                <div class="dashboard-group-header">
+                    <h4 class="text-md">Add a category</h4>
+                    <i class="fas fa-plus"></i>
+                </div>
+                <div class="dashboard-group-body">
+                    <label class="custom-field">
+                        <input type="text" />
+                        <span class="placeholder">Category Name</span>
+                    </label>
+                   
+                    <button class="btn custom-field-button">Add</button>
+                    <button class="btn open-btn" id="open-btn">open</button>
+                </div>
+            </div>
+            <!--  -->
+            <!-- Dynamic Category Groups -->
+            <!--  -->
+        </div>
+
+    </div>
+
+    
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container-sm">
+            <ul>
+                <li class="text-sm text-center">(613) 798-7800</li>
+
+                <li class="text-sm text-center">©2020 by The Wellington Diner. Proudly created not with Wix.com</li>
+            </ul>
+        </div>
+    </footer>
+    <script src="js/dashboard.js"></script>
+</body>
+
+</html>
