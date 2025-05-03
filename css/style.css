@@ -427,6 +427,7 @@ tr:nth-of-type(2n){
 
 /* Slider Item */
 .image-text-container {
+  background: red;
   position: relative;
   display: flex;
   justify-content: center;
@@ -436,8 +437,6 @@ tr:nth-of-type(2n){
   aspect-ratio: 16/9;
   padding: var(--image-gap);
   opacity: 0.75;
-
-  background-size: cover;
 }
 
 .image-text-container img {
