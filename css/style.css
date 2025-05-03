@@ -585,6 +585,7 @@ tr:nth-of-type(2n){
   }
   .slider2{
     --items-per-screen: 2;
+    height:300px;
   }
   
   .main-menu .category-items {
