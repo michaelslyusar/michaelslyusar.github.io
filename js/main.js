@@ -7,6 +7,24 @@ document.addEventListener('DOMContentLoaded', async () => {
     mobileMenu.classList.toggle('active')
   );
 
+  // Mobile menu touch swipe
+  
+  const slider = document.querySelector('.slider2');
+  let sliderIndex = parseInt(
+    getComputedStyle(slider).getPropertyValue('--slider-index')
+  );
+  let startX = 0;
+  let endX = 0;
+
+  slider.addEventListener('touchstart', (e) => {
+    startX = e.touches[0].clientX;
+  });
+
+  slider.addEventListener('touchend', (e) => {
+    endX = e.changedTouches[0].clientX;
+    handleSwipe();
+  });
+
   // Food menu
   const menu = await getJson();
   buildMenu(menu);
@@ -26,6 +44,31 @@ document.addEventListener('DOMContentLoaded', async () => {
     if (handle !== null) onHandleClick(handle);
   });
 });
+
+function handleSwipe() {
+  const deltaX = endX - startX;
+  const threshold = 50; // minimum swipe distance
+
+  if (Math.abs(deltaX) > threshold) {
+    if (deltaX > 0) {
+      // swipe right
+      slidePrevious();
+    } else {
+      // swipe left
+      slideNext();
+    }
+  }
+}
+
+function slideNext() {
+  sliderIndex = Math.min(sliderIndex + 1, maxIndex);
+  slider.style.setProperty('--slider-index', sliderIndex);
+}
+
+function slidePrevious() {
+  sliderIndex = Math.max(sliderIndex - 1, 0);
+  slider.style.setProperty('--slider-index', sliderIndex);
+}
 
 const getJson = async () => {
   try {
