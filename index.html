@@ -9,15 +9,15 @@
         integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="css/style.css">
-
 </head>
 
 <body>
+    <header id="top"></header>
     <!-- Navigation bar -->
     <nav class="navbar">
         <div class="container">
             <div class="navbar-nav-brand">
-                <span class="brand-name" id="logo">The wellington diner</span>
+                <span class="brand-name">The wellington diner</span>
             </div>
             <div class="navbar-nav-menu">
                 <ul>
@@ -32,6 +32,9 @@
                     </a>
                 </ul>
             </div>
+
+            <a class="btn return-top" href="#top"><i class="fa-solid fa-arrow-up"></i>Back to top</a>
+
             <div class="navbar-nav-social">
                 <ul class="navbar-social">
                     <li>
@@ -82,21 +85,13 @@
         </div>
     </nav>
 
-    <!-- Return button -->
-     <div class="container">
-        <div class="btn return-top">
-            <a href="#logo">Return</a>
-            <i class="fa-solid fa-arrow-up"></i>
-        </div>
-     </div>
-    
     <!-- Main menu -->
     <div class="container-sm">
 
         <!-- Slider 2 -->
         <div class="slider2-row">
             <div class="slider2-header">
-                <h3 class="slider2-title">Menu Categories</h3>
+                <h3 class="slider2-title">What would you like?</h3>
                 <div class="progress-bar" id="progress-bar">
 
                 </div>
@@ -122,6 +117,23 @@
     </div>
 
     <!-- Footer -->
+    <div class="container food-specifics-container">
+        <div class="alergies-container">
+            <img src="assets/alergies_dairy.png" alt="Dairy alergy">
+            <img src="assets/alergies_peanut.png" alt="Peanut alergy">
+            <img src="assets/alergies_shelfish.png" alt="Shelfish alergy">
+        </div>
+
+        <div class="food-type-container">
+            <img src="assets/hotpepper.png" class="spicy" alt="Spicy">
+            <img src="assets/vegeterian.png" alt="vegeterian">
+            <img src="assets/poultry.png" alt="vegeterian">
+            <img src="assets/pork.png" alt="vegeterian">
+        </div>
+    </div>
+
+
+
     <footer class="footer">
         <div class="container-sm">
             <ul>

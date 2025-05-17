@@ -2,13 +2,13 @@ document.addEventListener('DOMContentLoaded', async () => {
   // Mobile menu
   const hamburgerButton = document.querySelector('.hamburger-button');
   const mobileMenu = document.querySelector('.mobile-menu');
+  const navbar = document.querySelector('.navbar');
 
   hamburgerButton.addEventListener('click', () =>
     mobileMenu.classList.toggle('active')
   );
 
   // Mobile menu touch swipe
-  
   const slider = document.querySelector('.slider2');
   let sliderIndex = parseInt(
     getComputedStyle(slider).getPropertyValue('--slider-index')
@@ -27,6 +27,7 @@ document.addEventListener('DOMContentLoaded', async () => {
 
   // Food menu
   const menu = await getJson();
+  // updateJson(menu);
   buildMenu(menu);
 
   // slider
@@ -42,6 +43,24 @@ document.addEventListener('DOMContentLoaded', async () => {
     }
 
     if (handle !== null) onHandleClick(handle);
+  });
+
+  // Remove the elements from the navbar
+  window.addEventListener('scroll', () => {
+    const logo = document.querySelector('.navbar-nav-brand');
+    const hamburger = document.querySelector('.hamburger-button');
+    const returnBtn = document.querySelector('.return-top');
+    if (window.scrollY > 175) {
+      navbar.classList.add('scrolled');
+      logo.style.display = 'none';
+      hamburger.style.display = 'none';
+      returnBtn.style.display = 'flex';
+    } else {
+      navbar.classList.remove('scrolled');
+      logo.style.display = 'block';
+      hamburger.style.display = 'block';
+      returnBtn.style.display = 'none';
+    }
   });
 });
 
@@ -114,6 +133,7 @@ const buildMenu = (menu) => {
     const categoryItems = document.createElement('div');
     categoryItems.classList.add('category-items');
     categorySection.appendChild(categoryItems);
+    mainDiv.appendChild(categorySection);
     try {
       category.items.forEach((item) => {
         // Main div
@@ -125,11 +145,55 @@ const buildMenu = (menu) => {
         const firstLine = document.createElement('div');
         firstLine.classList.add('line-1');
         menuItem.appendChild(firstLine);
+        if (item.isSpecial) {
+          //Is special icon
+          const specialIcon = document.createElement('img');
+          specialIcon.src = 'assets/special.png';
+          specialIcon.classList.add('special-icon');
+          firstLine.appendChild(specialIcon);
+        }
         //Line 2 div
         const secondLine = document.createElement('div');
         secondLine.classList.add('item-description', 'text-sm');
         secondLine.textContent = item.description;
         menuItem.appendChild(secondLine);
+
+        // Line 3 div
+        const thirdLine = document.createElement('div');
+        thirdLine.classList.add('container', 'food-specifics-container');
+        menuItem.appendChild(thirdLine);
+        
+        if (item.spicy !== 0) {
+          const foodTypeContainer = document.createElement('div');
+          foodTypeContainer.classList.add('food-type-container');
+          thirdLine.appendChild(foodTypeContainer);
+          // spicy
+          const spicyImg = document.createElement('img');
+          spicyImg.src = 'assets/hotpepper.png';
+          
+          foodTypeContainer.appendChild(spicyImg);
+          
+        }
+        // Food type and alergies container
+        if (item.alergies[0]) {
+          const alergiesContainer = document.createElement('div');
+          alergiesContainer.classList.add('alergies-container');
+          thirdLine.appendChild(alergiesContainer);
+
+          // poultry
+          const poultryImg = document.createElement('img');
+          poultryImg.src = 'assets/poultry.png';
+          // Vegeterian
+          const vegeterianImg = document.createElement('img');
+          vegeterianImg.src = 'assets/vegeterian.png';
+          // pork
+          const porkImg = document.createElement('img');
+          porkImg.src = 'assets/pork.png';
+
+          alergiesContainer.appendChild(poultryImg);
+          alergiesContainer.appendChild(vegeterianImg);
+          alergiesContainer.appendChild(porkImg);
+        }
 
         //Line 1 - item size
         if (item.size) {
@@ -164,11 +228,29 @@ const buildMenu = (menu) => {
     } catch (err) {
       console.log(err);
     }
-
-    mainDiv.appendChild(categorySection);
   });
 };
 
+const updateJson = (data) => {
+  data.categories.forEach((category) => {
+    category.items.forEach((item) => {
+      item.spicy = 0;
+    });
+  });
+  // Convert updated object to JSON string
+  const updatedJson = JSON.stringify(data, null, 2);
+
+  // Create a blob and download
+  const blob = new Blob([updatedJson], { type: 'application/json' });
+  const url = URL.createObjectURL(blob);
+
+  const a = document.createElement('a');
+  a.href = url;
+  a.download = 'updated-person.json';
+  a.click();
+
+  URL.revokeObjectURL(url);
+};
 // Carousel
 //Move the carousel by a certain number of places.
 const moveBy = (num) => {

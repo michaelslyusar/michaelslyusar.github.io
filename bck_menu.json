@@ -2,1405 +2,979 @@
   "categories": [
     {
       "name": "Beverages",
-      "img": "/assets/1_beverages.webp",
+      "img":"/assets/1_beverages.webp",
       "description": "",
       "items": [
         {
           "name": "Milkshakes",
           "price": "9.99",
           "description": "Chocolate, Strawberry, Vanilla, Creamsicle, Banana & Chocolate, Chocolate & PB, PB & J, Oreo, Smarties, Mochaccino, Coconut",
-          "size": "20oz",
-          "alergies": ["placeholder"],
-          "isSpecial": false,
-          "spicy": 1
+          "size": "20oz"
         },
         {
           "name": "Bottomless Pop",
           "price": "4.20",
           "description": "",
-          "size": "",
-          "alergies": [],
-          "isSpecial": false,
-          "spicy": 0
+          "size": ""
         },
         {
           "name": "Tropicana Juice or Milk",
           "price": "4.20",
           "description": "",
-          "size": "14oz",
-          "alergies": [],
-          "isSpecial": false,
-          "spicy": 0
+          "size": "14oz"
         },
         {
           "name": "Fizzybubbly",
           "price": "4.20",
           "description": "OJ & Sodawater",
-          "size": "",
-          "alergies": [],
-          "isSpecial": false,
-          "spicy": 0
+          "size": ""
         },
         {
           "name": "Fresh Fruit Smoothie",
           "price": "8.99",
           "description": "",
-          "size": "",
-          "alergies": [],
-          "isSpecial": false,
-          "spicy": 0
+          "size": ""
         },
         {
           "name": "Coffee",
           "price": "3.49",
           "description": "Refillable",
-          "size": "",
-          "alergies": [],
-          "isSpecial": false,
-          "spicy": 0
+          "size": ""
         },
         {
           "name": "Americano",
           "price": "3.99",
           "description": "",
-          "size": "",
-          "alergies": [],
-          "isSpecial": false,
-          "spicy": 0
+          "size": ""
         },
         {
           "name": "Espresso",
           "price": "3.99",
           "description": "Double Espresso $4.49",
-          "size": "",
-          "alergies": [],
-          "isSpecial": false,
-          "spicy": 0
+          "size": ""
         },
         {
           "name": "Latte Bowl",
           "price": "8.49",
           "description": "Standard Size Latte $5.99 Make it Vanilla for $1 more",
-          "size": "",
-          "alergies": [],
-          "isSpecial": false,
-          "spicy": 0
+          "size": ""
         },
         {
           "name": "Diner Hot Chocolate",
           "price": "7.49",
           "description": "",
-          "size": "",
-          "alergies": [],
-          "isSpecial": false,
-          "spicy": 0
+          "size": ""
         },
         {
           "name": "Root Beer Float",
           "price": "6.99",
           "description": "A classic - Root beer with a scoop of vanilla ice cream for a creamy sweet twist",
-          "size": "",
-          "alergies": [],
-          "isSpecial": false,
-          "spicy": 0
+          "size": ""
         },
         {
           "name": "Mocha Bowl",
           "price": "9.49",
           "description": "Mocha cup $6.99",
-          "size": "",
-          "alergies": [],
-          "isSpecial": false,
-          "spicy": 0
+          "size": ""
         }
       ]
     },
     {
       "name": "Get Boozy",
-      "img": "/assets/2_get_boozy.webp",
+      "img":"/assets/2_get_boozy.webp",
       "description": "",
       "items": [
         {
           "name": "Diner Caesar",
           "price": "9.99",
           "description": "Classic Clamato, Vodka (1oz), Tabasco, Worcestershire, pickle juice, horseradish, & a dill pickle garnish. Get 2 for $15.99! Virgin Caesar $4.99",
-          "size": "",
-          "alergies": [],
-          "isSpecial": false,
-          "spicy": 0
+          "size": ""
         },
         {
           "name": "Mimosas",
           "price": "8.99",
           "description": "Ask your server about juice options. Get 2 for $14.99!",
-          "size": "",
-          "alergies": [],
-          "isSpecial": false,
-          "spicy": 0
+          "size": ""
         },
         {
           "name": "Diner Margarita",
           "price": "10.99",
           "description": "2 oz Margarita",
-          "size": "",
-          "alergies": [],
-          "isSpecial": false,
-          "spicy": 0
+          "size": ""
         },
         {
           "name": "Tequila Sunrise",
           "price": "9.99",
           "description": "Oj with grenadine unmixed, & of course Tequila (1oz), served with a salt rim.",
-          "size": "",
-          "alergies": [],
-          "isSpecial": false,
-          "spicy": 0
+          "size": ""
         },
         {
           "name": "Beach Bum",
           "price": "9.99",
           "description": "Pineapple juice & Malibu Rum (1oz), served with a salt rim.",
-          "size": "",
-          "alergies": [],
-          "isSpecial": false,
-          "spicy": 0
+          "size": ""
         },
         {
           "name": "Greyhound",
           "price": "9.99",
           "description": "Grapefruit juice & Vodka (1oz), served with a sugar rim.",
-          "size": "",
-          "alergies": [],
-          "isSpecial": false,
-          "spicy": 0
+          "size": ""
         },
         {
           "name": "Screwdriver",
           "price": "9.99",
           "description": "OJ & Vodka (1oz), served with a sugar rim.",
-          "size": "",
-          "alergies": [],
-          "isSpecial": false,
-          "spicy": 0
+          "size": ""
         },
         {
           "name": "Seabreeze",
           "price": "9.99",
           "description": "Cranberry & grapefruit juice with Vodka (1oz), served with a salt rim.",
-          "size": "",
-          "alergies": [],
-          "isSpecial": false,
-          "spicy": 0
+          "size": ""
         },
         {
           "name": "House Cabernet",
           "price": "8.99",
           "description": "1/2 Litre $17.00 Litre $27.99",
-          "size": "",
-          "alergies": [],
-          "isSpecial": false,
-          "spicy": 0
+          "size": ""
         },
         {
           "name": "House Pinot Grigio",
           "price": "8.99",
           "description": "1/2 Litre $17.00 Litre $27.99",
-          "size": "",
-          "alergies": [],
-          "isSpecial": false,
-          "spicy": 0
+          "size": ""
         },
         {
           "name": "Big Rig - Amber",
           "price": "9.99",
           "description": "Sweet notes, hopped body. Large 5.2% Small $5.99",
-          "size": "",
-          "alergies": [],
-          "isSpecial": false,
-          "spicy": 0
+          "size": ""
         },
         {
           "name": "Beau's Lugtread",
           "price": "9.99",
           "description": "Largered Ale, Large 5.2% Small: $5.99",
-          "size": "",
-          "alergies": [],
-          "isSpecial": false,
-          "spicy": 0
+          "size": ""
         },
         {
           "name": "Beyond The Pale - Pink Fuzz",
           "price": "9.99",
           "description": "Wheat beer, hoppy with grapefruit notes. Large 6% Small: $5.99",
-          "size": "",
-          "alergies": [],
-          "isSpecial": false,
-          "spicy": 0
+          "size": ""
         },
         {
           "name": "Draft Pitcher",
           "price": "21.99",
           "description": "",
-          "size": "",
-          "alergies": [],
-          "isSpecial": false,
-          "spicy": 0
+          "size": ""
         }
       ]
     },
     {
       "name": "Weekly Specials",
-      "img": "/assets/3_weekly_special.webp",
+      "img":"/assets/3_weekly_special.webp",
       "discription": "",
       "items": [
         {
           "name": "Monday Kids Eat Free",
           "price": "",
           "description": "After 5pm with the purchase of an adult meal & beverage. Coffee & Tea excluded. *** In-house only.",
-          "size": "",
-          "alergies": [],
-          "isSpecial": false,
-          "spicy": 0
+          "size": ""
         },
         {
           "name": "Tuesday 2 for 1 Sundaes",
           "price": "",
           "description": "2 Sundaes for the price of 1 after 5pm with the purchase 2 meals. *** In-house only.",
-          "size": "",
-          "alergies": [],
-          "isSpecial": false,
-          "spicy": 0
+          "size": ""
         },
         {
           "name": "Sunday Buy 1 Mac Get 1 Half Off",
           "price": "",
           "description": "Sunday after 5pm purchase 1 Mac & Cheese, get the second half off! With the purchase of a beverage. Coffee & Tea excluded. *** In-house only.",
-          "size": "",
-          "alergies": [],
-          "isSpecial": false,
-          "spicy": 0
+          "size": ""
         },
         {
           "name": "NEW - Burger Buds (after 4 pm)",
           "price": "",
           "description": "Buy 1 Burger at regular price and 2nd 50% off after 4pm with the order of 2 drinks, excluding coffee and tea *Monday - Friday after 4pm*",
-          "size": "",
-          "alergies": [],
-          "isSpecial": false,
-          "spicy": 0
+          "size": ""
         },
         {
           "name": "NEW - Sundown Special",
           "price": "",
           "description": "Buy 1 Burger Platter get a large beer for $4.99 *Monday - Friday after 4 pm*",
-          "size": "",
-          "alergies": [],
-          "isSpecial": false,
-          "spicy": 0
+          "size": ""
         },
         {
           "name": "Lunchbox Special (Daily 11am-2pm)",
           "price": "14.99",
           "description": "Forgot your sammie at home? We've got it covered from 11am - 2pm get the soup and sandwich of the day for $14.99 with your choice of bread (white, brown, or *rye) *Rye 0.75 upcharge",
-          "size": "",
-          "alergies": [],
-          "isSpecial": false,
-          "spicy": 0
+          "size": ""
         },
         {
           "name": "Mac Daddy Food Challenge",
           "price": "49.99",
           "description": "Brought to you by The Wellington Diner, Made famous by the one and only Beard Meets Food *Previous Challenge in Youtube Video* Now includes: Oreo Milkshake, Three Mac Daddy Burgers (two 6oz patties), and a Double Homie Poutine. Complete it in 40 minutes and the meals on us and you join this Legend! Rules: No leaving the table, no splitting, no take home or sharing. Finish it in 40 mins to win.",
-          "size": "",
-          "alergies": [],
-          "isSpecial": true,
-          "spicy": 0
+          "size": ""
         },
         {
           "name": "NEW - Early Bird Special Mon-Fri until 10 am",
           "price": "14.99",
           "description": "Traditional Breakfast, for the early birds (Monday - Friday Open till 10 am) 2 Eggs, & a choice of 3 slices of bacon, ham, or sausage. Served with seasoned homies & an order of toast. Coffee included. *Substitute your eggs or meat for: Smoked meat, pea meal bacon or 2 mini stoner sausages for an addition $3.99*",
-          "size": "",
-          "alergies": [],
-          "isSpecial": false,
-          "spicy": 0
+          "size": ""
         }
       ]
     },
     {
       "name": "Eggs Benny",
-      "img": "/assets/4_eggs_benny.webp",
+      "img":"/assets/4_eggs_benny.webp",
       "discription": "Eggs Benny come POACHED or POACHED HARD at request. Two poached eggs atop an english muffin & smothered in savoury hollandaise. Served alongside house homies or a house salad. *Add sautéed onions to your homies for no additional cost*",
       "items": [
         {
           "name": "The Wellington Benny",
           "price": "18.99",
           "description": "Thin sliced seasoned steak & caramelized onions.",
-          "size": "",
-          "alergies": [],
-          "isSpecial": false,
-          "spicy": 0
+          "size": ""
         },
         {
           "name": "The Classic Benny",
           "price": "17.99",
           "description": "A Canadian favourite with grilled peameal.",
-          "size": "",
-          "alergies": [],
-          "isSpecial": false,
-          "spicy": 0
+          "size": ""
         },
         {
           "name": "The California Kid Benny",
           "price": "18.99",
           "description": "Grilled ham, guacamole, our 3-cheese blend & topped with chipotle hollandaise.",
-          "size": "",
-          "alergies": [],
-          "isSpecial": false,
-          "spicy": 0
+          "size": ""
         },
         {
           "name": "The Diner Florentine",
           "price": "17.49",
           "description": "Fresh baby spinach & a 3-cheese blend.",
-          "size": "",
-          "alergies": [],
-          "isSpecial": false,
-          "spicy": 0
+          "size": ""
         },
         {
           "name": "Bacon Grilled Cheese Benny",
           "price": "17.99",
           "description": "A bacon grilled cheese sammie topped with 2 poached eggs & smothered in savoury hollandaise sauce.",
-          "size": "",
-          "alergies": [],
-          "isSpecial": false,
-          "spicy": 0
+          "size": ""
         },
         {
           "name": "Smoked Meat Benny",
           "price": "18.99",
           "description": "5 oz Montreal style smoked meat & swiss cheese.",
-          "size": "",
-          "alergies": [],
-          "isSpecial": false,
-          "spicy": 0
+          "size": ""
         },
         {
           "name": "Swipe Right Benny",
           "price": "20.49",
           "description": "Inside out grilled cheese sammie filled with pulled pork, two poached eggs, guacamole, topped with chipotle hollandaise.",
-          "size": "",
-          "alergies": [],
-          "isSpecial": false,
-          "spicy": 0
+          "size": ""
         },
         {
           "name": "Miss Vicky",
           "price": "17.99",
           "description": "Sauted mixed peppers, onions, mushrooms, baby spinach, tomatoes.",
-          "size": "",
-          "alergies": [],
-          "isSpecial": false,
-          "spicy": 0
+          "size": ""
         },
         {
           "name": "Lady Natasha",
           "price": "20.99",
           "description": "Smoked Atlantic salmon, cream cheese spread, and baby spinach.",
-          "size": "",
-          "alergies": [],
-          "isSpecial": false,
-          "spicy": 0
+          "size": ""
         },
         {
           "name": "East Coast Shuffle",
           "price": "19.99",
           "description": "Seasoned lobster, guacamole, sliced tomato, topped with savory hollandaise and bacon crumble.",
-          "size": "",
-          "alergies": [],
-          "isSpecial": false,
-          "spicy": 0
+          "size": ""
         }
       ]
     },
     {
       "name": "Eggs & Things",
-      "img": "/assets/5_eggs_and_things.webp",
+      "img":"/assets/5_eggs_and_things.webp",
       "discription": "Served with seasoned homies & an order of toast. Coffee included. *Upgrade to: Rye Toast $0.75, Gluten free toast $1.99 *Add sautéed onions to your homies for no additional cost* *Substitute your eggs or meat for: Smoked meat, pea meal bacon or 2 mini stoner patties for an addition $3.99* **Poached eggs available as POACHED MEDIUM or POACHED HARD.**",
       "items": [
         {
           "name": "Traditional Breakfast",
           "price": "16.99",
           "description": "2 Eggs, & a choice of 3 slices of bacon, ham, or sausage.",
-          "size": "",
-          "alergies": [],
-          "isSpecial": false,
-          "spicy": 0
+          "size": ""
         },
         {
           "name": "The Biggie Breakfast",
           "price": "19.79",
           "description": "A plate for the hungry or hungover with 3 eggs, & an order of 3 bacon, 3 ham, & 3 sausages.",
-          "size": "",
-          "alergies": [],
-          "isSpecial": false,
-          "spicy": 0
+          "size": ""
         },
         {
           "name": "Steak & Eggs",
           "price": "19.99",
           "description": "2 Eggs served alongside an 8oz AAA hand cut sirloin steak.",
-          "size": "",
-          "alergies": [],
-          "isSpecial": false,
-          "spicy": 0
+          "size": ""
         },
         {
           "name": "The Quebecer",
           "price": "17.99",
           "description": "2 Eggs, a choice of 3 pieces of bacon, ham, or sausage, served up with a side of pork beans.",
-          "size": "",
-          "alergies": [],
-          "isSpecial": false,
-          "spicy": 0
+          "size": ""
         },
         {
           "name": "The Valley Pancake Breakfast",
           "price": "18.49",
           "description": "2 Eggs, a choice of 3 pieces of bacon, ham, or sausage. Served with a real buttermilk pancake. Add Blueberries or Chocolate Chips for $1",
-          "size": "",
-          "alergies": [],
-          "isSpecial": false,
-          "spicy": 0
+          "size": ""
         },
         {
           "name": "The Bonanza",
           "price": "24.49",
           "description": "3 Eggs, an 8oz AAA hand cut sirloin steak, bacon, ham, sausage, pork beans. Served with house homies and 3 slices of toast. **** Sharing fee of $4.99",
-          "size": "",
-          "alergies": [],
-          "isSpecial": false,
-          "spicy": 0
+          "size": ""
         },
         {
           "name": "Valley French Toast",
           "price": "17.99",
           "description": "2 Eggs, a choice of 3 pieces of bacon, ham, or sausage. Served with 1 slice of Brioche French toast.",
-          "size": "",
-          "alergies": [],
-          "isSpecial": false,
-          "spicy": 0
+          "size": ""
         },
         {
           "name": "2 mini stoner sausages ala cart",
           "price": "6.99",
           "description": "Substitute your breakfast meat choice for 2 Stoner sausages on any breakfast for $3.99",
-          "size": "",
-          "alergies": [],
-          "isSpecial": false,
-          "spicy": 0
+          "size": ""
         }
       ]
     },
     {
       "name": "Scrambles & Omelettes",
-      "img": "/assets/6_scrambles_and_omelettes.webp",
+      "img":"/assets/6_scrambles_and_omelettes.webp",
       "discription": "Each made with 3 eggs and stuffed with an abundance of fresh ingredients. Served with your choice of toast & house homies, or a garden salad. *Add sautéed onions to your homies for no additional cost*",
       "items": [
         {
           "name": "The #1 Omelette",
           "price": "18.99",
           "description": "Fresh baby spinach, mushrooms, loaded with creamy brie cheese.",
-          "size": "",
-          "alergies": [],
-          "isSpecial": false,
-          "spicy": 0
+          "size": ""
         },
         {
           "name": "Western Omelette",
           "price": "17.99",
           "description": "Mixed peppers, onions, diced ham.",
-          "size": "",
-          "alergies": [],
-          "isSpecial": false,
-          "spicy": 0
+          "size": ""
         },
         {
           "name": "Cowboy Omelette",
           "price": "19.29",
           "description": "Pulled pork with smokey BBQ sauce, mixed peppers, onions, and a 3-cheese blend.",
-          "size": "",
-          "alergies": [],
-          "isSpecial": false,
-          "spicy": 0
+          "size": ""
         },
         {
           "name": "Veggie Scramble",
           "price": "17.99",
           "description": "3 Egg scramble with mixed peppers, onions, mushrooms, baby spinach, tomatoes, feta cheese.",
-          "size": "",
-          "alergies": [],
-          "isSpecial": false,
-          "spicy": 0
+          "size": ""
         },
         {
           "name": "The Mish Mash Scramble",
           "price": "18.99",
           "description": "3 Egg scramble with bacon, ham, sausage, sauteed mixed peppers & onions. Topped with a broiled 3 cheese blend. The cheese man, get it for the cheese!",
-          "size": "",
-          "alergies": [],
-          "isSpecial": false,
-          "spicy": 0
+          "size": ""
         }
       ]
     },
     {
       "name": "Our Breakfast Poutines & Hashes",
-      "img": "/assets/7_breakfast_poutines_and_hashes.webp",
+      "img":"/assets/7_breakfast_poutines_and_hashes.webp",
       "discription": "Big bowl of house homies, a variety of ingredients, & topped with signature hollandaise.",
       "items": [
         {
           "name": "Stoner Hash",
           "price": "18.99",
           "description": "In house sweet sausage stoner patty sauteed with bacon, mixed peppers, onions, a 3 cheese blend, 2 over-easy eggs, & a dose of chipotle hollandaise.",
-          "size": "",
-          "alergies": [],
-          "isSpecial": false,
-          "spicy": 0
+          "size": ""
         },
         {
           "name": "Mexican Hash",
           "price": "18.99",
           "description": "Ground chorizo sausage, sauteed mixed peppers and onions, mixed cheese, 2 over-easy eggs, guacamole, topped with chipotle hollandaise on a bed of homies.",
-          "size": "",
-          "alergies": [],
-          "isSpecial": false,
-          "spicy": 0
+          "size": ""
         },
         {
           "name": "Buddha Hash",
           "price": "18.99",
           "description": "Fresh baby spinach, mixed peppers & onions, tomatoes, mushrooms, 2 over-easy eggs, pesto hollandaise, and feta cheese on a bed of homies.",
-          "size": "",
-          "alergies": [],
-          "isSpecial": false,
-          "spicy": 0
+          "size": ""
         },
         {
           "name": "Smoked Meat Hash",
           "price": "18.99",
           "description": "Juicy smoked meat, sauteed peppers & onions, 3 cheese blend with 2 over-easy eggs, & chipotle hollandaise.",
-          "size": "",
-          "alergies": [],
-          "isSpecial": false,
-          "spicy": 0
+          "size": ""
         },
         {
           "name": "Carnivore Poutine",
           "price": "17.29",
           "description": "Bacon, sausage, & ham, loaded with St. Albert's cheese curds & topped with savoury hollandaise.",
-          "size": "",
-          "alergies": [],
-          "isSpecial": false,
-          "spicy": 0
+          "size": ""
         },
         {
           "name": "Homie Breakfast Poutine",
           "price": "12.99",
           "description": "Loads of St. Albert's cheese curds smothered in savoury hollandaise. Try it with bacon or sausage for $2.99!",
-          "size": "",
-          "alergies": [],
-          "isSpecial": false,
-          "spicy": 0
+          "size": ""
         },
         {
           "name": "6 Shooter Hash",
           "price": "19.99",
           "description": "6oz Pulled pork, mixed peppers, onions, 3-cheese blend, 2 over-easy eggs, chipotle hollandaise, guacamole.",
-          "size": "",
-          "alergies": [],
-          "isSpecial": false,
-          "spicy": 0
+          "size": ""
         },
         {
           "name": "Alpha Bowl",
           "price": "19.99",
           "description": "Seasoned steak, mixed peppers, onions, 3 cheese blend, 2 over-easy eggs, topped with chipotle hollandaise and guacamole.",
-          "size": "",
-          "alergies": [],
-          "isSpecial": false,
-          "spicy": 0
+          "size": ""
         }
       ]
     },
     {
       "name": "Light & Healthy",
-      "img": "/assets/8_light_and_healthy.webp",
+      "img":"/assets/8_light_and_healthy.webp",
       "discription": "A collection of lighter dishes to fuel your day.",
       "items": [
         {
           "name": "The Greek Breakfast",
           "price": "15.99",
           "description": "2 Eggs served with 5 slices of cucumber, 5 slices of tomato, crumbled feta, and olives on top. Served with an order of toast. * This item does not include a side of homie fries, they are available for $4.20.",
-          "size": "",
-          "alergies": [],
-          "isSpecial": false,
-          "spicy": 0
+          "size": ""
         },
         {
           "name": "Smoked Salmon Platter",
           "price": "20.99",
           "description": "Smoked Atlantic Salmon topped with capers & onions. Served with a sesame seed bagel, cream cheese, lemon, and a house salad.",
-          "size": "",
-          "alergies": [],
-          "isSpecial": false,
-          "spicy": 0
+          "size": ""
         },
         {
           "name": "Oatmeal",
           "price": "11.29",
           "description": "A full bowl made fresh to order and served with a side of brown sugar and steamed milk. Add seasonal berries for $3.99",
-          "size": "",
-          "alergies": [],
-          "isSpecial": false,
-          "spicy": 0
+          "size": ""
         },
         {
           "name": "Bagel 'N' Cream Cheese",
           "price": "6.99",
           "description": "Sesame seed bagel loaded with cream cheese, served with coleslaw and pickle.",
-          "size": "",
-          "alergies": [],
-          "isSpecial": false,
-          "spicy": 0
+          "size": ""
         },
         {
           "name": "Fresh Start",
           "price": "15.99",
           "description": "2 Poached eggs served with a sesame seed bagel, cream cheese, and a fruit bowl. *** This item does not include homies.",
-          "size": "",
-          "alergies": [],
-          "isSpecial": false,
-          "spicy": 0
+          "size": ""
         },
         {
           "name": "Fresh Fruit Smoothie",
           "price": "8.99",
           "description": "",
-          "size": "",
-          "alergies": [],
-          "isSpecial": false,
-          "spicy": 0
+          "size": ""
         }
       ]
     },
     {
       "name": "Breakfast Clubs & Wraps",
-      "img": "/assets/9_breakfast_clubs_and_wraps.webp",
+      "img":"/assets/9_breakfast_clubs_and_wraps.webp",
       "discription": "Sure to satisfy, our triple deckers are served with house homies or garden salad. Side Upgrades: Onion Rings $4.20, Caesar Salad $4.49, Poutine $4.99, Homie Poutine $4.99",
       "items": [
         {
           "name": "The Stoner Burger",
           "price": "18.99",
           "description": "Sweet sausage patty, sunny side egg, bacon, cheddar cheese, chipotle mayo on a Brioche bun.",
-          "size": "",
-          "alergies": [],
-          "isSpecial": false,
-          "spicy": 0
+          "size": ""
         },
         {
           "name": "Mother Clubber",
           "price": "17.99",
           "description": "2 Over-medium eggs, guacamole, Monterey jack cheese, lettuce, tomato, mayo.",
-          "size": "",
-          "alergies": [],
-          "isSpecial": false,
-          "spicy": 0
+          "size": ""
         },
         {
           "name": "The Breakfast Club",
           "price": "17.99",
           "description": "2 Over-medium eggs, bacon, cheddar cheese, lettuce, tomato, mayo.",
-          "size": "",
-          "alergies": [],
-          "isSpecial": false,
-          "spicy": 0
+          "size": ""
         },
         {
           "name": "Breakfast Burrito",
           "price": "18.99",
           "description": "3 Scrambled eggs, chorizo sausage, sautéed peppers, onions, guacamole, cheddar cheese, and juicy salsa.",
-          "size": "",
-          "alergies": [],
-          "isSpecial": false,
-          "spicy": 0
+          "size": ""
         },
         {
           "name": "The Drake",
           "price": "18.99",
           "description": "Breakfast wrap filled with 3 eggs, 5oz of Montreal style smoked meat, chipotle mayo, and cheese.",
-          "size": "",
-          "alergies": [],
-          "isSpecial": false,
-          "spicy": 0
+          "size": ""
         }
       ]
     },
     {
       "name": "Yummies",
-      "img": "/assets/10_yummies.webp",
+      "img":"/assets/10_yummies.webp",
       "discription": "For the sweet tooth.",
       "items": [
         {
           "name": "Buttermilk Pancakes",
           "price": "17.99",
           "description": "3 Tremendous country-kitchen style real buttermilk pancakes. Served with a topping of icing sugar & a side of whip cream.",
-          "size": "",
-          "alergies": [],
-          "isSpecial": false,
-          "spicy": 0
+          "size": ""
         },
         {
           "name": "Chocolate Chip or Blueberry Pancakes",
           "price": "18.99",
           "description": "3 Tremendous country-kitchen style real buttermilk pancakes sprinkled with chocolate chips or blueberries. Topped with icing sugar & a side of whip cream.",
-          "size": "",
-          "alergies": [],
-          "isSpecial": false,
-          "spicy": 0
+          "size": ""
         },
         {
           "name": "Single Pancake",
           "price": "7.99",
           "description": "Single buttermilk pancake.",
-          "size": "",
-          "alergies": [],
-          "isSpecial": false,
-          "spicy": 0
+          "size": ""
         },
         {
           "name": "French Toast",
           "price": "17.29",
           "description": "3 Slices of Brioche bread served with a fruit salad, icing sugar, and whip cream.",
-          "size": "",
-          "alergies": [],
-          "isSpecial": false,
-          "spicy": 0
+          "size": ""
         },
         {
           "name": "Single French Toast",
           "price": "6.99",
           "description": "Single Brioche French Toast.",
-          "size": "",
-          "alergies": [],
-          "isSpecial": false,
-          "spicy": 0
+          "size": ""
         }
       ]
     },
     {
       "name": "Tasty Apps",
-      "img": "/assets/11_tasty_apps.webp",
+      "img":"/assets/11_tasty_apps.webp",
       "discription": "",
       "items": [
         {
           "name": "Jalapeno Poppers",
           "price": "10.49",
           "description": "5 Breaded jalapenos stuffed with a cream cheese filling, served with a side salsa.",
-          "size": "",
-          "alergies": [],
-          "isSpecial": false,
-          "spicy": 0
+          "size": ""
         },
         {
           "name": "Deep Fried Pickles",
           "price": "9.99",
           "description": "5 Flash-fried crispy, tangy dill pickles served with creamy ranch dressing.",
-          "size": "",
-          "alergies": [],
-          "isSpecial": false,
-          "spicy": 0
+          "size": ""
         },
         {
           "name": "Onion Rings",
           "price": "9.29",
           "description": "Bowl of O-rings with plenty to share. Served with chipotle mayo.",
-          "size": "",
-          "alergies": [],
-          "isSpecial": false,
-          "spicy": 0
+          "size": ""
         },
         {
           "name": "Mozzarella Sticks",
           "price": "10.29",
           "description": "5 Thick mozzarella sticks with a double battered crisp shell. Served with a side salsa.",
-          "size": "",
-          "alergies": [],
-          "isSpecial": false,
-          "spicy": 0
+          "size": ""
         },
         {
           "name": "Soup of the Day",
           "price": "10.99",
           "description": "Ask about our soup of the day",
-          "size": "",
-          "alergies": [],
-          "isSpecial": false,
-          "spicy": 0
+          "size": ""
         }
       ]
     },
     {
       "name": "Salads",
-      "img": "/assets/12_salads.webp",
+      "img":"/assets/12_salads.webp",
       "discription": "Each prepared with fresh ingredients and a variety of dressings to choose from.",
       "items": [
         {
           "name": "House Salad",
           "price": "14.99",
           "description": "Mixed greens, cucumber, tomato, red cabbage & carrots, with your choice of dressing.",
-          "size": "",
-          "alergies": [],
-          "isSpecial": false,
-          "spicy": 0
+          "size": ""
         },
         {
           "name": "Diner Caesar Salad",
           "price": "16.29",
           "description": "Leafy greens, shredded Parmesan, handmade croutons, & fresh bacon bits all tossed in creamy garlic Caesar dressing. Add Chicken $4.99",
-          "size": "",
-          "alergies": [],
-          "isSpecial": false,
-          "spicy": 0
+          "size": ""
         },
         {
           "name": "Cobb Salad",
           "price": "19.29",
           "description": "Grilled chicken breast, guacamole, bacon, a hard boiled egg, cucumbers, tomatoes, carrots, red cabbage & 3 cheese-blend on a bed of mixed greens. Served with Blue Cheese dressing.",
-          "size": "",
-          "alergies": [],
-          "isSpecial": false,
-          "spicy": 0
+          "size": ""
         },
         {
           "name": "Greek Salad",
           "price": "16.29",
           "description": "Mixed greens, cucumber, tomato, red cabbage, carrots, feta cheese & olives.",
-          "size": "",
-          "alergies": [],
-          "isSpecial": false,
-          "spicy": 0
+          "size": ""
         }
       ]
     },
     {
       "name": "Mains",
-      "img": "/assets/13_mains.webp",
+      "img":"/assets/13_mains.webp",
       "discription": "Diner classics to satisfy the pickiest of eaters. Side Upgrades: Onion Rings $4.20, Caesar Salad $4.49, Poutine $4.99, Homie Poutine $4.99, NEW - Side of Mac n Cheese $6.99 Try our specialty mayo: Pesto, Chipotle or Red Pepper for $1.49",
       "items": [
         {
           "name": "Fish & Chips",
           "price": "18.99",
           "description": "Battered Haddock served with fresh fries, side peas, coleslaw, tangy pickles, tartar sauce, & lemon.",
-          "size": "",
-          "alergies": [],
-          "isSpecial": false,
-          "spicy": 0
+          "size": ""
         },
         {
           "name": "Salisbury Steak",
           "price": "18.99",
           "description": "Hamburger steak smothered in gravy & caramelized onions onions. Served with fries, side peas, coleslaw & tangy dill pickles. Add sauteed mushrooms for $1.29!",
-          "size": "",
-          "alergies": [],
-          "isSpecial": false,
-          "spicy": 0
+          "size": ""
         },
         {
           "name": "Hot Hamburger",
           "price": "18.99",
           "description": "Our classic patty stuffed between 2 slices of bread & smothered in house gravy. Served with fries, a side of peas, coleslaw, & a tangy dill pickle.",
-          "size": "",
-          "alergies": [],
-          "isSpecial": false,
-          "spicy": 0
+          "size": ""
         },
         {
           "name": "Hot Chicken Sandwich",
           "price": "18.99",
           "description": "Oven roasted chicken stuffed between 2 slices of bread & smothered in house beef gravy. Served with fries, a side of peas, coleslaw, & a tangy dill pickle.",
-          "size": "",
-          "alergies": [],
-          "isSpecial": false,
-          "spicy": 0
+          "size": ""
         },
         {
           "name": "Steak Frites",
           "price": "21.99",
           "description": "8oz Striploin with frites, caesar salad, and pesto mayo dip. Served with a side gravy dip, coleslaw, & a tangy dill pickle.",
-          "size": "",
-          "alergies": [],
-          "isSpecial": false,
-          "spicy": 0
+          "size": ""
         },
         {
           "name": "Chicken Finger Platter",
           "price": "18.49",
           "description": "4 Juicy breaded chicken fingers. Served with fries, coleslaw, & tangy dill pickles. Feed your inner child.",
-          "size": "",
-          "alergies": [],
-          "isSpecial": false,
-          "spicy": 0
+          "size": ""
         },
         {
           "name": "NEW - Buffalo Chicken Finger Platter",
           "price": "18.99",
           "description": "4 Juicy breaded chicken fingers tossed in hot sauce. Served with fries, coleslaw, & tangy dill pickles. Served with side of Ranch",
-          "size": "",
-          "alergies": [],
-          "isSpecial": false,
-          "spicy": 0
+          "size": ""
         },
         {
           "name": "Steak Quesadilla",
           "price": "18.99",
           "description": "Seasoned steak, 3 cheese blend, fresh sauteed peppers and onions. Served with sour cream and salsa. *This item does not include a side.*",
-          "size": "",
-          "alergies": [],
-          "isSpecial": false,
-          "spicy": 0
+          "size": ""
         },
         {
           "name": "Chicken Quesadilla",
           "price": "17.99",
           "description": "Oven-roasted chicken, 3 cheese blend, fresh sautéed peppers and onions. Served with sour cream and salsa. *This item does not include a side.*",
-          "size": "",
-          "alergies": [],
-          "isSpecial": false,
-          "spicy": 0
+          "size": ""
         }
       ]
     },
     {
       "name": "Mac 'N Cheese House Specialty",
-      "img": "/assets/14_mac_n_cheese.webp",
+      "img":"/assets/14_mac_n_cheese.webp",
       "discription": "Comfort food at it's finest, always cooked to order. Topped with Panko crumbs in a 4-cheese béchamel sauce. Served with a choice of fries or salad. Side Upgrades: Onion Rings $4.20, Caesar Salad $4.49, Poutine $4.99, Homie Poutine $4.99",
       "items": [
         {
           "name": "Mama's Mac",
           "price": "18.29",
           "description": "Sweet cream, garlic, Parmesan. Try it with bacon! $2.49 Extra cheese for $2.20",
-          "size": "",
-          "alergies": [],
-          "isSpecial": false,
-          "spicy": 0
+          "size": ""
         },
         {
           "name": "Lobster Mac",
           "price": "20.99",
           "description": "Seasoned lobster & a hint of garlic baked into a creamy bechamel sauce. Extra cheese for $2.20",
-          "size": "",
-          "alergies": [],
-          "isSpecial": false,
-          "spicy": 0
+          "size": ""
         },
         {
           "name": "Buffalo Chicken Mac",
           "price": "20.99",
           "description": "Crispy chicken, Franks Red Hot, creamy bechamel sauce, bacon bits. You could share but you won't want to. Extra cheese for $2.20",
-          "size": "",
-          "alergies": [],
-          "isSpecial": false,
-          "spicy": 0
+          "size": ""
         },
         {
           "name": "BBQ Pulled Pork Mac",
           "price": "20.49",
           "description": "Slow-cooked pulled pork, sweet smokey house BBQ sauce. Add extra cheese $2.20.",
-          "size": "",
-          "alergies": [],
-          "isSpecial": false,
-          "spicy": 0
+          "size": ""
         },
         {
           "name": "Philly Steak Mac",
           "price": "20.99",
           "description": "Thinly sliced seasoned steak, mixed peppers, onions, mushrooms, garlic, with a tangy cream cheese sauce. Add extra cheese $2.20.",
-          "size": "",
-          "alergies": [],
-          "isSpecial": false,
-          "spicy": 0
+          "size": ""
         },
         {
           "name": "Carbonara Mac",
           "price": "18.99",
           "description": "A Mac & Cheese with a 4-cheese bechamel sauce, bacon crumbles, mushrooms, and caramelized onions. Add extra cheese $2.20.",
-          "size": "",
-          "alergies": [],
-          "isSpecial": false,
-          "spicy": 0
+          "size": ""
         },
         {
           "name": "",
           "price": "",
           "description": "",
-          "size": "",
-          "alergies": [],
-          "isSpecial": false,
-          "spicy": 0
+          "size": ""
         },
         {
           "name": "Pesto Chicken Mac",
           "price": "18.99",
           "description": "Fresh mixed peppers, onions, baby spinach and oven-roasted chicken in a creamy pesto bechamel sauce. Add extra cheese $2.20.",
-          "size": "",
-          "alergies": [],
-          "isSpecial": false,
-          "spicy": 0
+          "size": ""
         },
         {
           "name": "Mama's Maple Bacon Mac",
           "price": "19.99",
           "description": "Candied Bacon tossed in our Creamy Cheesy House Blend to make our Satisfying Mama's Maple Bacon Mac & Cheese",
-          "size": "",
-          "alergies": [],
-          "isSpecial": false,
-          "spicy": 0
+          "size": ""
         }
       ]
     },
     {
       "name": "Our Famous Poutines",
-      "img": "/assets/15_poutines.webp",
+      "img":"/assets/15_poutines.webp",
       "discription": "Big hearty bowls loaded with St. Albert's cheese curds & smothered in beef gravy.",
       "items": [
         {
           "name": "Classic Poutine",
           "price": "11.99",
           "description": "A bowl of fresh-cut fries & St. Albert's cheese curds smothered in gravy. Add extra curds for $2.49.",
-          "size": "",
-          "alergies": [],
-          "isSpecial": false,
-          "spicy": 0
+          "size": ""
         },
         {
           "name": "The Montrealer",
           "price": "18.99",
           "description": "Loads of juicy diced Montreal-style smoked meat. Add extra curds for $2.49!",
-          "size": "",
-          "alergies": [],
-          "isSpecial": false,
-          "spicy": 0
+          "size": ""
         },
         {
           "name": "Piggy's Poutine",
           "price": "18.99",
           "description": "Slow-roasted in-house pulled pork topped with caramelized onions. Add extra curds for $2.49!",
-          "size": "",
-          "alergies": [],
-          "isSpecial": false,
-          "spicy": 0
+          "size": ""
         },
         {
           "name": "Wellington Poutine",
           "price": "18.99",
           "description": "Thinly sliced seasoned steak, mixed peppers, onions, & mushrooms all top a big bowl of fries & St. Albert cheese curds. Add extra curds for $2.49!",
-          "size": "",
-          "alergies": [],
-          "isSpecial": false,
-          "spicy": 0
+          "size": ""
         },
         {
           "name": "The Pickler",
           "price": "16.99",
           "description": "Our classic poutine topped with chopped deep fried pickles, and a drizzle of Franks Red Hot and ranch. Strangely addictive.",
-          "size": "",
-          "alergies": [],
-          "isSpecial": true,
-          "spicy": 0
+          "size": ""
         }
       ]
     },
     {
       "name": "Homemade Burger",
-      "img": "/assets/16_homemade_burgers.webp",
+      "img":"/assets/16_homemade_burgers.webp",
       "discription": "House-made 6oz patties seasoned with secret diner seasoning. Served with fresh fries, house slaw & sliced dill pickle. Beyond Meat Patty available as a Veggie Patty. *Substitute your bun for gluten free toast for $1 more* Side Upgrades: Onion Rings $4.20, Caesar Salad $4.49, Poutine $4.99, Homie Poutine $4.99, NEW - Side of Mac n Cheese $6.99 Try our specialty mayo: Pesto, Chipotle or Red Pepper for $1.49",
       "items": [
         {
           "name": "The Hamburger",
           "price": "16.99",
           "description": "Single patty, grilled to perfection. Served with fresh lettuce & tomato. Add bacon or cheddar cheese for $1.49",
-          "size": "",
-          "alergies": [],
-          "isSpecial": false,
-          "spicy": 0
+          "size": ""
         },
         {
           "name": "The Bacon Cheeseburger",
           "price": "18.99",
           "description": "House patty topped with cheddar cheese & crisp bacon. Served with fresh lettuce & tomato.",
-          "size": "",
-          "alergies": [],
-          "isSpecial": false,
-          "spicy": 0
+          "size": ""
         },
         {
           "name": "The Baja",
           "price": "18.99",
           "description": "House patty, cream cheese, jalapenos, Franks Red Hot, bacon, lettuce, tomato.",
-          "size": "",
-          "alergies": [],
-          "isSpecial": false,
-          "spicy": 0
+          "size": ""
         },
         {
           "name": "The Brie Burger",
           "price": "18.99",
           "description": "House patty, brie cheese, caramelized onions, sauteed mushrooms, lettuce, tomato.",
-          "size": "",
-          "alergies": [],
-          "isSpecial": false,
-          "spicy": 0
+          "size": ""
         },
         {
           "name": "Jr. Mac Daddy",
           "price": "17.99",
           "description": "House patty, topped with fancy sauce, cheddar cheese, diced onions, pickles, shredded lettuce, & tomato.",
-          "size": "",
-          "alergies": [],
-          "isSpecial": false,
-          "spicy": 0
+          "size": ""
         },
         {
           "name": "The Firecracker",
           "price": "19.49",
           "description": "House patty, 2 jalapeno poppers, cheddar cheese, fresh red peppers, & good old-fashioned onion rings. All dripping in chipotle mayo & Franks Red Hot.",
-          "size": "",
-          "alergies": [],
-          "isSpecial": false,
-          "spicy": 0
+          "size": ""
         },
         {
           "name": "The Kentucky Crunch",
           "price": "17.99",
           "description": "Crispy breaded chicken breast topped with homemade slaw, apple spears, crisp bacon, Monetary jack cheese & dripping with chipotle mayo.",
-          "size": "",
-          "alergies": [],
-          "isSpecial": false,
-          "spicy": 0
+          "size": ""
         },
         {
           "name": "The Phat Ass Burger",
           "price": "20.99",
           "description": "You came here for a reason: this burger is it. Fresh patty stacked with house pulled-pork, 3 mozzarella sticks, mixed cheese, crisp bacon, & dripping with chipotle mayo.",
-          "size": "",
-          "alergies": [],
-          "isSpecial": false,
-          "spicy": 0
+          "size": ""
         },
         {
           "name": "Double Grilled Cheese Burger",
           "price": "18.99",
           "description": "House burger patty stuffed between 2 grilled cheese sandwiches. Because why not? Available with bacon for an addition $2",
-          "size": "",
-          "alergies": [],
-          "isSpecial": false,
-          "spicy": 0
+          "size": ""
         },
         {
           "name": "The Mac Daddy",
           "price": "21.49",
           "description": "2 House patties, double cheddar cheese, diced onion, pickles, shredded lettuce, tomato, and fancy sauce.",
-          "size": "",
-          "alergies": [],
-          "isSpecial": false,
-          "spicy": 0
+          "size": ""
         },
         {
           "name": "Chucky Cheese Burger",
           "price": "19.99",
           "description": "House patty with a gooey St. Alberts cheese curd skirt drapped over, topped with bacon.",
-          "size": "",
-          "alergies": [],
-          "isSpecial": false,
-          "spicy": 0
+          "size": ""
         },
         {
           "name": "The Country Chicken",
           "price": "17.99",
           "description": "Crispy breaded chicken breast topped with Bacon, Monterey jack, lettuce, tomato, and mayo. ** Guacamole available as a substitute for bacon.",
-          "size": "",
-          "alergies": [],
-          "isSpecial": false,
-          "spicy": 0
+          "size": ""
         },
         {
           "name": "Hot Sauce Josh",
           "price": "16.99",
           "description": "Crispy chicken breast with Monterey jack cheese, jalapenos, bacon, and Frank's Red Hot on brioche bun sauced with chipotle mayo and ranch dressing.",
-          "size": "",
-          "alergies": [],
-          "isSpecial": false,
-          "spicy": 0
+          "size": ""
         }
       ]
     },
     {
       "name": "Our Signature Clubs & Wraps",
-      "img": "/assets/17_clubs_and_wraps.webp",
+      "img":"/assets/17_clubs_and_wraps.webp",
       "discription": "Fresh triple deckers served with house salad or fresh fries, homemade slaw, and dill pickles. Side Upgrades: Onion Rings $4.20, Caesar Salad $4.49, Poutine $4.99, Homie Poutine $4.99, NEW - Side of Mac n Cheese $6.99 Try our specialty mayo: Pesto, Chipotle or Red Pepper for $1.49",
       "items": [
         {
           "name": "California Club",
           "price": "18.99",
           "description": "Oven-roasted chicken, guacamole, Monetary jack cheese, chipotle mayo, lettuce, tomato.",
-          "size": "",
-          "alergies": [],
-          "isSpecial": false,
-          "spicy": 0
+          "size": ""
         },
         {
           "name": "Classic Club",
           "price": "18.99",
           "description": "Oven roasted chicken breast, bacon, cheddar cheese, fresh lettuce, tomato & dripping with mayo.",
-          "size": "",
-          "alergies": [],
-          "isSpecial": false,
-          "spicy": 0
+          "size": ""
         },
         {
           "name": "The Diner Club",
           "price": "19.99",
           "description": "2 Over-medium eggs, crispy breaded chicken breast, ham, bacon, cheddar, mayo, lettuce, tomato.",
-          "size": "",
-          "alergies": [],
-          "isSpecial": false,
-          "spicy": 0
+          "size": ""
         },
         {
           "name": "The Rick Rueben",
           "price": "18.49",
           "description": "Stacked, juicy, thin-sliced Montreal style smoked meat with sauerkraut, swiss cheese & 1000 Island dressing on grilled rye. * Served as is, no alterations accepted.",
-          "size": "",
-          "alergies": [],
-          "isSpecial": false,
-          "spicy": 0
+          "size": ""
         },
         {
           "name": "Hog Wild",
           "price": "18.49",
           "description": "Slow roasted pulled pork smothered in BBQ sauce, caramelized onions, topped with cheddar cheese, homemade slaw & chipotle mayo on a brioche bun. Napkins will be required.",
-          "size": "",
-          "alergies": [],
-          "isSpecial": false,
-          "spicy": 0
+          "size": ""
         },
         {
           "name": "NEW - Crispy Chicken Caesar Salad Wrap",
           "price": "18.99",
           "description": "Sink your teeth into this hearty wrap, where juicy, crispy fried chicken meets the perfect crunch of a classic Caesar salad. Tossed in creamy Caesar dressing, topped with smoky bacon, and finished with a generous sprinkle of Parmesan cheese, all wrapped snugly in a warm, soft tortilla. A bold twist on a diner favorite—wrapped and ready to savor!",
-          "size": "",
-          "alergies": [],
-          "isSpecial": false,
-          "spicy": 0
+          "size": ""
         },
         {
           "name": "Buffalo Chicken Wrap",
           "price": "17.99",
           "description": "Crispy chicken tenders tossed in Frank's Red Hot sauce & creamy ranch dressing, paired with Monterey jack cheese, lettuce, & tomato.",
-          "size": "",
-          "alergies": [],
-          "isSpecial": false,
-          "spicy": 0
+          "size": ""
         },
         {
           "name": "Veggie Wrap",
           "price": "16.99",
           "description": "Guacamole, mixed peppers, onions, carrots, cucumbers, lettuce, feta cheese, & pesto mayo.",
-          "size": "",
-          "alergies": [],
-          "isSpecial": false,
-          "spicy": 0
+          "size": ""
         },
         {
           "name": "Mean Green Club",
           "price": "17.29",
           "description": "Triple decker with guacamole, cucumber, mixed peppers, onions, lettuce, tomato, shredded carrot, cheddar, and pesto mayo.",
-          "size": "",
-          "alergies": [],
-          "isSpecial": false,
-          "spicy": 0
+          "size": ""
         }
       ]
     },
     {
       "name": "Kids Menu",
-      "img": "/assets/18_kids_menu.webp",
+      "img":"/assets/18_kids_menu.webp",
       "discription": "",
       "items": [
         {
           "name": "Dino Buddies",
           "price": "8.99",
           "description": "5 Dino shaped chicken nuggets. Served with plum sauce, & fries or apple wedges.",
-          "size": "",
-          "alergies": [],
-          "isSpecial": false,
-          "spicy": 0
+          "size": ""
         },
         {
           "name": "Grilled Cheese",
           "price": "8.99",
           "description": "Classic grilled cheese on white bread. Served with fries or apple wedges.",
-          "size": "",
-          "alergies": [],
-          "isSpecial": false,
-          "spicy": 0
+          "size": ""
         },
         {
           "name": "Fish Sticks",
           "price": "8.99",
           "description": "Classic fish sticks & fries, also available with apple wedges. Served with tartar sauce.",
-          "size": "",
-          "alergies": [],
-          "isSpecial": false,
-          "spicy": 0
+          "size": ""
         },
         {
           "name": "Kids French Toast",
           "price": "8.99",
           "description": "Single slice of Brioche French toast topped lightly with icing sugar. Served with 2 strips of bacon, ham, or sausage. Apple wedges & homies also available.",
-          "size": "",
-          "alergies": [],
-          "isSpecial": false,
-          "spicy": 0
+          "size": ""
         },
         {
           "name": "Kids Pancakes",
           "price": "8.99",
           "description": "2 Real buttermilk pancakes topped lightly with icing sugar. Served with 2 strips of bacon, ham, or sausage. Apple wedges & homies also available.",
-          "size": "",
-          "alergies": [],
-          "isSpecial": false,
-          "spicy": 0
+          "size": ""
         },
         {
           "name": "Kids Breakfast",
           "price": "8.99",
           "description": "1 Egg, two pieces of meat, homies, & a slice of toast.",
-          "size": "",
-          "alergies": [],
-          "isSpecial": false,
-          "spicy": 0
+          "size": ""
         },
         {
           "name": "Kids Mac",
           "price": "8.99",
           "description": "A smaller portion of our classic Mama's mac, served with fresh fries or apple wedges.",
-          "size": "",
-          "alergies": [],
-          "isSpecial": false,
-          "spicy": 0
+          "size": ""
         }
       ]
     }

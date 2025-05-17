@@ -12,6 +12,9 @@
   --light-color: #ffd63a;
 }
 
+html {
+  scroll-behavior: smooth;
+}
 body {
   color: #181818;
   font-family: 'Raleway', sans-serif;
@@ -86,6 +89,7 @@ nav .container {
   color: #222222;
   font-size: 30px;
   margin: 30px 0 15px;
+  scroll-margin-top: 135px;
 }
 .main-menu .category-items {
   display: grid;
@@ -223,75 +227,31 @@ td {
 tr:nth-of-type(2n) {
   background: hsla(63, 66%, 79%, 0.2);
 }
-
-/* Modal */
-.modals .btn {
-  margin-left: 20px;
-  margin-top: 15px;
-  height: 10px;
-
-  border: 1px #3c3d37 solid;
-  background: #181c14;
-  color: #ecdfcc;
-  display: inline-flex;
-  align-items: center;
-  padding: 10px;
-  border-radius: 3px;
+/* Food specifics */
+.food-specifics-container{
+  display:flex;
+  justify-content: space-between;
 }
-.modals .test-btn:after {
-  content: '\2807';
-}
-
-.modal-content {
+.alergies-container {
   display: flex;
-  border-radius: 5px;
-  align-items: center;
-  padding: 15px;
-  flex-direction: column;
-  background-color: #fff;
-  margin: 100px auto;
-  width: 400px;
-  height: 300px;
-  box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 7px 20px 0 rgba(0, 0, 0, 0.2);
 }
-.modal-content a {
-  align-self: end;
-}
-
-.modal-input {
+.food-type-container {
   display: flex;
-  align-items: center;
+}
+.alergies-container img,
+.food-type-container img {
+  height: 40px;
+  width: 40px;
+}
+.food-type-container .spicy {
   height: 50px;
-  padding: 0 30px;
+  width: 50px;
 }
-
-.modal-1 {
-  display: none;
-  position: fixed;
-  z-index: 1;
-  left: 0;
-  top: 0;
-  height: 100%;
-  width: 100%;
-  overflow: auto;
-  background-color: rgba(0, 0, 0, 0.5);
-  animation-name: modalopen;
-  animation-duration: 1s;
+.special-icon {
+  margin:0 5px;
+  height: 30px;
+  width: 30px;
 }
-
-.modal-1.open {
-  display: block;
-}
-
-@keyframes modalopen {
-  from {
-    opacity: 0;
-  }
-  to {
-    opacity: 1;
-  }
-}
-
 /* Utility Classes */
 .container {
   max-width: 1300px;
@@ -364,6 +324,7 @@ tr:nth-of-type(2n) {
   --handle-size: 3rem;
   --images-per-screen: 4;
   --image-gap: 0.25rem;
+  --mobile-image-size: 150px;
 }
 
 .slider2-container {
@@ -550,16 +511,16 @@ tr:nth-of-type(2n) {
   margin: 0 5px;
 }
 .return-top {
-  position: fixed;
-  bottom: 150px;
-  right: 50px;
-  border: 1px solid #333;
-  background: #ccc;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  display: none;
 }
+
 @media (max-width: 860px) {
   .slider2 {
     --items-per-screen: 2;
-    height: 200px;
+    height: var(--mobile-image-size);
   }
   .navbar {
     padding: 0 20px;
@@ -571,12 +532,18 @@ tr:nth-of-type(2n) {
   .navbar .hamburger-button {
     display: block;
   }
-  .return-top {
-    bottom: 0;
-    right: 0;
-    margin: 0;
-    font-size: 10px;
+  .navbar.scrolled {
+    position: fixed;
   }
+  nav .container {
+    padding: 10px 0;
+  }
+
+  .return-top {
+    height: 100%;
+    width: 100%;
+  }
+
   :root {
     --images-per-screen: 2;
   }
@@ -590,10 +557,11 @@ tr:nth-of-type(2n) {
   .slider2-row .progress-item {
     min-width: 0.8rem;
     flex: 0 0 0;
+    display: none;
   }
   .slider2-row .image-text-container {
     width: 100%;
-    height: auto; 
+    height: auto;
     aspect-ratio: 16 / 9;
   }
   .slider2-row .image-text-container {
@@ -604,5 +572,9 @@ tr:nth-of-type(2n) {
   }
   .main-menu .category-items {
     grid-template-columns: 1fr;
+  }
+  .menu-item .line-1 {
+    line-height: 1.5;
+    font-size: 1.2rem;
   }
 }
